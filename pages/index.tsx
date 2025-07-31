@@ -25,8 +25,9 @@ export default function IndexPage() {
                     <span className={title({ color: "violet" })}>Demo&nbsp;</span>
                 <br></br>                <br></br>
 
-                <video className="w-full rounded-xl shadow-lg" controls>
+<video className="w-full rounded-xl shadow-lg" controls>
   <source src="fellasblack.mp4" type="video/mp4" />
+  <track kind="captions" srcLang="en" label="English captions" src="captions.vtt" default />
   Your browser does not support the video tag.
 </video>
 
@@ -73,7 +74,7 @@ export default function IndexPage() {
                 Search anything on youtube
               </li>
                             <li>
-                open any youtube channel just by youtuber's name
+                open any youtube channel just by youtubers name
               </li>
               <li>
                 Take screenshots
@@ -106,7 +107,7 @@ export default function IndexPage() {
                 Search any restoraunt on Ubereats
               </li>
               <li>
-                Join a zoom call
+                Join a zoom meet
               </li>
                             <li>
                 Search a movie on attackertv.so (if u have vpn)
