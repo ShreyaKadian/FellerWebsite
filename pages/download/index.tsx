@@ -8,53 +8,38 @@ import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
 
-
 export default function DocsPage() {
   return (
     <DefaultLayout>
-      <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16">
+      <section className="flex flex-col items-center justify-center gap-6 py-12 md:py-16 bg-black">
         <div className="max-w-2xl text-center">
-          <h1 className={title()}>Download Here</h1>
-
-          <div className={subtitle({ class: "mt-4" })}>
-            Feller is a software that aims to be your perfect digital assistant.
-            It’s designed to make your computing experience completely hands-free.
-            Operated by voice, it can perform nearly all tasks you use a computer for.
-            Currently available for Linux only.
-          </div>
+          <h1 className={title({ color: "violet" })}>Download Here</h1>
+          <div className={subtitle({ class: "mt-4" })}></div>
+          Download the zip and run it with ./codeine when CDed in the folder. To
+          access features like mailing just add mail id and developer mail pwd
+          in the env file. Mic feature is currently down in public version so
+          just type!
         </div>
 
         <div className="flex flex-wrap gap-4 justify-center mt-6">
           <Link
+            href="https://drive.google.com/drive/folders/1-W1FnYPlkCukacQl2NKIuujNBJhZcI52?usp=sharing"
             isExternal
-           // href={siteConfig.links.home}
-            className={buttonStyles({
-              color: "primary",
+            className={`${buttonStyles({
               radius: "full",
               variant: "shadow",
-            })}
+            })} 
+    bg-fuchsia-600 text-white`}
           >
-            Documentation
-          </Link>
-
-          <Link
-            isExternal
-            href={siteConfig.links.github}
-            className={buttonStyles({
-              variant: "bordered",
-              radius: "full",
-            })}
-          >
-            <GithubIcon size={20} />
-            GitHub
+            Download
           </Link>
         </div>
 
         <div className="mt-10">
           <Snippet hideCopyButton hideSymbol variant="bordered">
             <span>
-              Get started by editing{" "}
-              <Code color="primary">pages/index.tsx</Code>
+              Unzip=&gt;Go to terminal=&gt;cd into folder=&gt;just run{" "}
+              <Code className="bg-fuchsia-600  text-black">./codeine</Code>
             </span>
           </Snippet>
         </div>
