@@ -1,55 +1,23 @@
-# Next.js & HeroUI Template
+Presently its for Linux only (Mic feature is currently inactive in the public version). Below are all the actions it can perform and all the commands for it
 
-This is a template for creating applications using Next.js 14 (pages directory) and HeroUI (v2).
+Open any software in your computer (Spotify,Photoshop)-open x
+Open any website-open x.com / open a website
+Make any Notes that it will remember-make a note
+Open any file in your computer with just a bit of the name(image , text , video) - open a file
+Set reminders - set a reminder
+Send instagram dms - send a dm
+Make,save,edit,read any text file - open a file/edit a file/read a file/make a file
+Send an email-send email
+Read/summarise daily emails-check email
+Make and show a daily todo list-make/show a todo list
+Make and show a daily appointments list-make/show an appointment
+Access all features of ai assistants like Groq - say anything if you are using a keyword just go to chatmode and it wont pick up any command words
+Search anything on youtube
+Take screenshots
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/next-pages-template)
 
-> Note: Since Next.js 14, the pages router is recommend migrating to the [new App Router](https://nextjs.org/docs/app) to leverage React's latest features
->
-> Read more: [Pages Router](https://nextjs.org/docs/pages)
+INSTALLATION
 
-## Technologies Used
+Download the zip and run it with ./codeine when CDed in the folder. To access features like mailing just add mail id and developer mail pwd in the env file. Mic feature is currently down in public version so just type!
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
-- [next-themes](https://github.com/pacocoursey/next-themes)
-
-## How to Use
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-pages-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-pages-template/blob/main/LICENSE).
+Unzip=>Go to terminal=>cd into folder=>just run ./codeine
