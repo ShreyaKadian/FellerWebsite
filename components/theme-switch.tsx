@@ -20,7 +20,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
   const { theme, setTheme } = useTheme();
 
   const onChange = () => {
-    theme === "dark" ? setTheme("light") : setTheme("dark");
+    theme === "dark" ? setTheme("dark") : setTheme("dark");
   };
 
   const {
